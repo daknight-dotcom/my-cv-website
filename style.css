@@ -1,0 +1,109 @@
+/* External CSS for CV Website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 850px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Header - Your Name and Contact */
+header {
+    background-color: #0a4d2a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5px 0;
+    opacity: 0.9;
+}
+
+/* Each Section */
+section {
+    padding: 20px 25px;
+    border-bottom: 1px solid #eee;
+}
+
+section h2 {
+    color: #0a4d2a;
+    font-size: 20px;
+    margin-bottom: 12px;
+    border-left: 5px solid #ffcc00;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.content {
+    padding-left: 15px;
+}
+
+.content p {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content ul li {
+    background: #f8fdf8;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-left: 4px solid #0a4d2a;
+    border-radius: 4px;
+}
+
+/* Referees side by side */
+.referee {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.ref-box {
+    flex: 1;
+    min-width: 200px;
+    background: #f0f4ff;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #d0d8e8;
+}
+
+.ref-box p {
+    font-size: 13px;
+}
+
+/* Footer */
+footer {
+    background: #0a4d2a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+}
